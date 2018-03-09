@@ -1,0 +1,46 @@
+/* Style */
+
+p {
+    color: blue;
+}
+
+h1 {
+    color: purple;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-shadow: 2px 0 black
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 30vw;
+    height: auto;
+    /* Applico un effetto di colore all'immagine */
+    -webkit-filter: hue-rotate(90deg);
+    /* Safari */
+    filter: hue-rotate(90deg);
+}
+
+img:hover {
+	/* Applico il blur all'immagine quando vi passo sopra col mouse */
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
