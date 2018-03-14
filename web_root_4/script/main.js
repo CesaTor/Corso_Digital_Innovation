@@ -53,3 +53,25 @@ if (!localStorage.getItem('name')) {
 
 var car = ['Fiat', 'Volvo', 'BMW', 'Mercedes'];
 console.log(car, car.indexOf('BMW'));
+
+switch (myCar) {
+	case 'Fiat':
+		console.log('We');
+		break;
+	case 'Volvo':
+		console.log('Are');
+		break;
+	case 'BMW':
+		console.log('Number');
+		break;
+	case 'Mercedes':
+		console.log('One');
+		break;
+	default:
+		console.log('We Are Number One, but by default');
+		break;
+}
+
+car.splice(2, 0, 'Aonna', 'Hara');
+
+console.log(car);
