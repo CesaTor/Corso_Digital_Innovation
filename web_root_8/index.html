@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://johnny.github.io/jquery-sortable/js/jquery-sortable.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<div id="form">
+			<form action="#">
+				<input type="text" value="mike" name="" id="" />
+				<input type="text" value="ler" name="" id="" />
+				<button id="sub">Invia</button>
+				<!-- <button id="cls">RESET</button> -->
+				<p class="errMsg" hidden>Fields cannot be empty!</p>
+			</form>
+		</div>
+
+		<div id="area">
+			<table id="tab">
+				<tr id="thead">
+					<th>
+						<input type="checkbox" id="checkAll">
+					</th>
+					<th>
+						<button id="sortName">Nome</button>
+					</th>
+					<th>
+						<button id="sortSur">Cognome</button>
+					</th>
+					<th>
+						Delete
+					</th>
+				</tr>
+
+			</table>
+			<!-- <textarea id="text"></textarea> -->
+			<br>
+			<button id="delSelected">Delete Selected</button>
+		</div>
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>

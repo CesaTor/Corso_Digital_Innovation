@@ -1,0 +1,43 @@
+#form {
+    float: left;
+    width: 50%;
+}
+
+#area {
+    float: left;
+    width: 50%;
+}
+
+#text {
+    width: 100%;
+}
+
+table {
+    width: 50%;
+}
+
+table,
+tr,
+td {
+    border: double 2px black;
+    position: relative;
+}
+
+.errMsg {
+    color: brown;
+}
+
+.selected {
+    background-color: gray;
+}
+
+body.dragging,
+body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
